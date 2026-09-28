@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.a {
+  background-color: #f3a683;
+}
+
+.b {
+  background-color: #f7d794;
+  position: relative; /* 부모가 static이 아닌 것중에서 가장 가까운 요소를 부모로 잡음 */
+  /* 현재 기준으로 잡음 */
+}
+.c {
+  background-color: #778beb;
+}
+.d {
+  background-color: #f8a5c2;
+
+  /* 부모가 static이 아닌 것중에서 가장 가까운 요소를 부모로 잡음 */
+}
+
+.a > span {
+  position: relative;
+  left: 30px;
+  top: 30px;
+}
+
+.b > span {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}

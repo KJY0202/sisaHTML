@@ -1,0 +1,29 @@
+.contents {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.contents > h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.contents > p {
+  font-size: 24px;
+  color: var(--color-secondary);
+}
+
+@media screen and (max-width: 768px) {
+  .contents > h2 {
+    font-size: 20px;
+  }
+  .contents > p {
+    font-size: 12px;
+  }
+}

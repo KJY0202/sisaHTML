@@ -1,0 +1,6 @@
+.contents {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 3px solid hsl(238, 100%, 50%);
+}

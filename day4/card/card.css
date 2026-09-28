@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "KookminUniversitySunggokSerif";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/2607101542@kmu80sungkokserif/kmu80sungkokserif/KMU80SungkokSerif.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+.card {
+  width: 110px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #d4fc79; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #96e6a1,
+    #d4fc79
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #96e6a1,
+    #d4fc79
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.colun {
+  width: 10px;
+  height: 10px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.today {
+  text-align: center;
+  font-family: "KookminUniversitySunggokSerif";
+  font-size: 12px;
+  line-height: 2.3;
+}
+
+.enough {
+  text-align: center;
+  font-family: "KookminUniversitySunggokSerif";
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.bar {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.univ {
+  font-size: 5px;
+  text-align: center;
+  color: grey;
+  letter-spacing: 3px;
+}

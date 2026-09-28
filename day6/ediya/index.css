@@ -1,0 +1,64 @@
+.container {
+  width: 1000px;
+  height: 500px;
+  border: 1px solid gray;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.card {
+  width: 220px;
+  height: 400px;
+  padding: 10px;
+
+  background-color: #f5f1f1;
+  background-size: 100% auto;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  transition: background-size 0.5s;
+  position: relative;
+}
+
+.card:hover {
+  background-size: 110% auto;
+}
+
+.card1 {
+  background-image: url("IMG_1785992366347.png");
+}
+
+.card2 {
+  background-image: url("IMG_1785992553675.png");
+}
+
+.card3 {
+  background-image: url("IMG_1785993336297.png");
+}
+
+.card4 {
+  background-image: url("IMG_1785993412855.png");
+}
+
+span {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 70px;
+}
+
+.sold-out {
+  display: flex;
+  position: absolute;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  z-index: 1;
+}

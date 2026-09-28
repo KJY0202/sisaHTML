@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+/*  일반모니터, 패드, 핸드폰 */
+/*  박스들이 세로로 나열하기*/
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .box {
+    background-color: blue;
+  }
+}

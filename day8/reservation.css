@@ -1,0 +1,77 @@
+.reservation {
+}
+
+.reservation > .contents {
+  width: 100%;
+  max-width: var(--width-max);
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 0;
+}
+
+.reservation > .contents > .title {
+  color: var(--color-primary);
+  font-size: var(--font-size-xl);
+}
+
+.reservation > .contents > .search {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.reservation > .contents > .search > .calendar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+
+  border: 1px solid #e8ebf1;
+  border-radius: 8px;
+  padding: 7px 8px 7px 12px;
+  cursor: pointer;
+  flex: 3;
+}
+
+.reservation > .contents > .search > .calendar > svg {
+  color: #0078ff;
+}
+
+.reservation > .contents > .search > .search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+
+  border: 1px solid #e8ebf1;
+  border-radius: 8px;
+  padding: 7px 8px 7px 12px;
+  flex: 7;
+}
+
+.reservation > .contents > .search > .search-bar > svg {
+  color: #0078ff;
+}
+
+.reservation > .contents > .search > .search-bar > input {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.reservation > .contents > .search > .search-bar > input::placeholder {
+  font-size: 16px;
+}
+
+.reservation > .contents > .search > button {
+  font-size: 14px;
+  color: #b4bbcb;
+  background-color: #f2f3f8;
+  padding: 12px 18px;
+  white-space: nowrap;
+  border: none;
+  border-radius: 12px;
+}

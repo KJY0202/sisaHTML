@@ -1,0 +1,57 @@
+.card {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  margin-right: 4px;
+}
+
+.menu-wrapper {
+  gap: 40px;
+}
+
+.lales {
+  font-size: 15px;
+}
+
+.vpn {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu {
+  font-size: 13px;
+  color: gray;
+}
+
+.sign-wrapper {
+  display: flex;
+  gap: 10px;
+}
+.signin {
+  border: none;
+  font-weight: bold;
+  background-color: white;
+}
+
+.signup {
+  border: 1px solid red;
+  font-weight: bold;
+  color: tomato;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+}

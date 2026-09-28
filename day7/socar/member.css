@@ -1,0 +1,12 @@
+.member {
+}
+
+.member-contents {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px 12px;
+  gap: 20px;
+}

@@ -1,0 +1,16 @@
+:root {
+	--color-background: gray;
+	--color-primary: red;
+	--color-text: black;
+	--color-on-background: white;
+	--color-border: black;
+
+	--font-heading: Paperozi;
+	--font-display: Escoredream;
+	--font-weight-bold: 700;
+
+	--width-content: 1280px;
+	--space-sm: 10px;
+	--space-md: 20px;
+	--radius-sm: 8px;
+}

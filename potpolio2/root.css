@@ -1,0 +1,14 @@
+:root {
+  --color-accent: red;
+  --color-text: #000;
+  --color-surface: #fff;
+  --color-border: #ccc;
+  --color-muted: #666;
+  --color-divider: #999;
+  --color-footer: #f1f1f1;
+
+  --width-content: 1280px;
+  --space-sm: 10px;
+  --space-md: 20px;
+  --radius-md: 15px;
+}

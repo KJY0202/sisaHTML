@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "DearFromsol";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/2607161334@griun-fromsol-rg/griun-fromsol-rg/Griun_Fromsol-Rg.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aggravo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff")
+    format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aggravo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff")
+    format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+
+.apple {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px 0;
+  width: 300px;
+  font-family: "DearFromsol";
+  line-height: 2;
+  letter-spacing: 5px;
+}
+
+.applelogo {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  margin-right: 5px;
+  border-radius: 9999px;
+}
+
+.google {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px 0;
+  width: 300px;
+  font-family: "Aggravo";
+  font-weight: 500;
+}
+
+.googlelogo {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  margin-right: 5px;
+  border-radius: 9999px;
+}

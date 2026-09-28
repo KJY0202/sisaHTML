@@ -1,0 +1,39 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  /* 전환 */
+  transition: all 0.5s;
+}
+
+/* 마우스를 올리면
+     */
+.box:hover {
+  /* transform : rotate(45deg); [회전] */
+  transform: scale(1.5); /* 확대 */
+  background-color: red;
+}
+
+.newBox {
+  width: 200px;
+  height: 200px;
+  background-color: #2ecc71;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.newBox > button {
+  border: 1px solid white;
+  color: white;
+  padding: 2px 4px;
+  background-color: transparent;
+  opacity: 0;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+.newBox:hover > button {
+  opacity: 1;
+}

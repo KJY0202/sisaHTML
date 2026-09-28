@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card1 {
+  width: 500px;
+  height: 700px;
+  border: none;
+  border-radius: 30px;
+  background-image: url(/day6/card/hotel1.avif);
+  background-size: cover;
+}
+
+.card2 {
+  width: 500px;
+  height: 700px;
+  border: none;
+  border-radius: 30px;
+  background-image: url(/day6/card/hotel2.avif);
+  background-size: cover;
+}
+
+.title {
+  display: block;
+  width: fit-content;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-bottom: 3px solid white;
+  padding-bottom: 6px;
+  margin: 20px 20px 0 20px;
+}
+
+.main {
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin: 0 20px 20px;
+  line-height: 70px;
+}
+
+.sub {
+  display: block;
+  font-size: 30px;
+  color: white;
+  margin: 0 20px 20px;
+}

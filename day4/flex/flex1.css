@@ -1,0 +1,86 @@
+.ui {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.pallete {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.lightgreen {
+  background-color: #55efc4;
+}
+.fadedposter {
+  background-color: #81ecec;
+}
+.greendarnertail {
+  background-color: #74b9ff;
+}
+.shymoment {
+  background-color: #a29bfe;
+}
+.cityl {
+  background-color: #dfe6e9;
+}
+.mintleaf {
+  background-color: #00b894;
+}
+.robinsegg {
+  background-color: #00cec9;
+}
+.electronblue {
+  background-color: #0984e3;
+}
+.exodus {
+  background-color: #6c5ce7;
+}
+.shoothing {
+  background-color: #b2bec3;
+}
+.sourlemon {
+  background-color: #ffeaa7;
+}
+.firstdate {
+  background-color: #fab1a0;
+}
+.pinkglamour {
+  background-color: #ff7675;
+}
+.pico {
+  background-color: #fd79a8;
+}
+.american {
+  background-color: #636e72;
+}
+.brightyarow {
+  background-color: #fdcb6e;
+}
+.orangeville {
+  background-color: #e17055;
+}
+.chigong {
+  background-color: #d63031;
+}
+.prunus {
+  background-color: #e84393;
+}
+.dracula {
+  background-color: #2d3436;
+}
+
+p {
+  color: white;
+  font-weight: bolder;
+  margin: 0 5px 5px 0;
+}

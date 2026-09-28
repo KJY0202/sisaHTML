@@ -1,0 +1,66 @@
+.foot {
+  width: 100%;
+  padding: 20px;
+  background-color: var(--color-footer);
+}
+
+.upfoot {
+  display: flex;
+  flex-direction: column;
+
+  padding: 15px 0;
+  border-bottom: 1px solid var(--color-border);
+  gap: 50px;
+}
+
+.info > ul {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.info > ul > li {
+  cursor: pointer;
+}
+
+.info > ul > li + li::before {
+  content: "|";
+  margin-right: 20px;
+  color: var(--color-divider);
+}
+
+.upfoot > button {
+  width: 200px;
+  height: 30px;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.downfoot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.downfoot > p {
+  font-size: 14px;
+  color: var(--color-muted);
+  font-weight: bold;
+}
+
+.downfoot > .sns {
+  display: flex;
+  gap: 10px;
+}
+
+.downfoot > .sns > iconify-icon {
+  cursor: pointer;
+}

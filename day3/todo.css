@@ -1,0 +1,36 @@
+.card {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  width: 400px;
+  padding: 10px 20px 10px 20px;
+  margin: 50px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+}
+
+.image {
+  width: 60px;
+  height: 60px;
+  border-radius: 9999px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.content {
+  color: grey;
+  margin-bottom: 50px;
+
+  font-size: 16px;
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border: none;
+  border-radius: 10px;
+}
